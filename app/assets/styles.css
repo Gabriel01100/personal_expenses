@@ -1,0 +1,53 @@
+/* General page style */
+body {
+    background-color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #d4d4d4;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* Container for graphs */
+.dashboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin: 20px;
+}
+
+/* Each card that holds a graph */
+.dashboard-card {
+    background: rgb(82, 6, 6);
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1 45%;
+    min-width: 400px;
+    max-width: 600px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Graphs */
+.dash-graph {
+    height: 400px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin: 30px;
+    font-size: 14px;
+    color: #7f8c8d;
+}
